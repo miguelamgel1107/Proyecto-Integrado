@@ -43,4 +43,18 @@ Aqui una imagen del circuto:
 ### Montaje 
 
 Ya que el sistema de riego va a estar afuera en el huerto decidimos que el arduino se va a limentar con energia solar usando un panel solar y el motor igual, 
-y para esto necesitaremos uno reguladores de voltaje 
+y para esto necesitaremos uno reguladores de voltaje ya que el arduino podria sufrir daños si le damos mucho voltaje, el voltaje que puede aguntar un arduino uno es de 7.5 voltios aproximadamente, y sacamos otros cables del panel solar al relé y motor para que el motor tambien se alimente del panel solar.
+
+El motor de nosotros ero lo suficientemente potente como para soportar el voltaje que daba el panel ssolar que eran entre 20 y 25 voltios pero no todos los motores lo soportan asi que hay que investigar primero sobre el motor que tengamos para saber si necesitamos un regulador o no.
+
+### Problemas del proyecto 
+
+Diria que el principal problemas es el tiempo que teniamos para realizar el proyecto ya que era un proyecto algo complicado.
+
+Otro problemas que nos susedio fue que habian ocasiones donde el panel solar no funcionaba bien, pero no era un problema si no que el panel solar tiene que estar en cierta pisición para que resiba bien el sol y funcione correctamnete.
+
+Tambien nos dimos cuenta que la bomba de agua tiene que estar medio sumergida en el agua para que pueda funcionar correctamente ya que no tiene la suficiente potencia para absorber el agua atravez de un tubo.
+
+Otro problema es que parece ser que el relé no soporta el voltaje del panel solar y empieza a funcionar sin que el sensor le de la señal de hacerlo, asi que probablemente tengamos que poner un regulador de voltaje tambien al relé y motor.
+
+
